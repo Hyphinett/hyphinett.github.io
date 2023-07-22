@@ -4,3 +4,11 @@ body {
     background-attachment: fixed;
     background-size: cover;
 }
+
+.content {
+    margin: 20%,30%,30%,0%;
+}
+
+.profile_pic{
+    size: 20%;
+}
