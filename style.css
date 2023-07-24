@@ -22,10 +22,20 @@ body {
 .profile_pic{
     width: 15vw;
     height: 15vw;
+    margin: auto;
 }
 
 .pfp_holder{
     width: auto;
     height: fit-content;
-    padding: auto;
+}
+
+.outlink{
+    background-color: #3e40b4;
+    color: #ee86d4;
+}
+
+.link_ico{
+    width: 3ex;
+    margin: 40px;
 }
