@@ -19,7 +19,5 @@ body {
 .profile_pic{
     width: 20vh;
     height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10vh;
+    margin: auto;
 }
