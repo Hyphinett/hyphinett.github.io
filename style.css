@@ -25,6 +25,10 @@ body {
     margin: auto;
 }
 
+.links{
+    text-align: center;
+}
+
 .pfp_holder{
     text-align: center;
     width: auto;
@@ -32,6 +36,8 @@ body {
 }
 
 .outlink{
+    display: block;
+    padding-left: 160px;
     height: fit-content;
     width: fit-content;
     padding: 40px;
@@ -45,6 +51,8 @@ body {
 }
 
 .link_ico{
+    position: absolute;
+    top: 0px;
     width: 80px;
     margin: 40px;
 }
