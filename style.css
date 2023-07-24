@@ -3,10 +3,14 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    background-color: #3e40b4;
 }
 
 .content {
     margin: 20vh,30vw,30vw, 0px;
+    background-color: white;
+    border: 5vh, solid, black;
+    border-radius: 20vh;
 }
 
 .profile_pic{
