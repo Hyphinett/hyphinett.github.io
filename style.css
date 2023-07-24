@@ -34,15 +34,17 @@ body {
 .outlink{
     height: fit-content;
     width: fit-content;
+    padding: 40px;
     background-color: #3e40b4;
     color: #ee86d4;
     border-radius: 20px;
     border-style: solid;
     border-color: rgb(90, 39, 110);
     border-width: 5px;
+    text-decoration: none;
 }
 
 .link_ico{
-    width: 3ex;
+    width: 80px;
     margin: 40px;
 }
