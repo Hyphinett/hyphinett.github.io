@@ -9,7 +9,7 @@ body {
 .content {
     margin: 20vh,30vw,30vw, 0px;
     background-color: white;
-    border: 5vh, solid, black;
+    border: 5px, solid, black;
     border-radius: 20vh;
 }
 
