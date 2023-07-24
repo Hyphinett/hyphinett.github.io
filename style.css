@@ -26,13 +26,20 @@ body {
 }
 
 .pfp_holder{
+    text-align: center;
     width: auto;
     height: fit-content;
 }
 
 .outlink{
+    height: fit-content;
+    width: fit-content;
     background-color: #3e40b4;
     color: #ee86d4;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: rgb(90, 39, 110);
+    border-width: 5px;
 }
 
 .link_ico{
