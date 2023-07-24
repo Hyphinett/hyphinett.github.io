@@ -22,5 +22,10 @@ body {
 .profile_pic{
     width: 15vw;
     height: 15vw;
-    margin: auto;
+}
+
+.pfp_holder{
+    width: auto;
+    height: fit-content;
+    padding: auto;
 }
