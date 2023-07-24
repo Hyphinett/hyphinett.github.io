@@ -7,16 +7,19 @@ body {
 }
 
 .content {
-    align-self: center;
     width: 80vw;
     background-color: rgb(127, 207, 245);
     border-radius: 20px;
     border: 5px, solid, rgb(69, 0, 97);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vh;
 }
 
 .profile_pic{
     margin-top: 10vh;
-    align-self: center;
     width: 20vh;
     height: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
