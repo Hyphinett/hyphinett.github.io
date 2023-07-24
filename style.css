@@ -8,12 +8,13 @@ body {
 
 .content {
     margin: 20vh,30vw,30vw, 0px;
-    background-color: white;
-    border: 5px, solid, black;
-    border-radius: 20vh;
+    background-color: rgb(127, 207, 245);
+    border: 5px, solid, rgb(69, 0, 97);
+    border-radius: 20px;
 }
 
 .profile_pic{
+    align-self: center;
     width: 10vh;
     height: auto;
 }
