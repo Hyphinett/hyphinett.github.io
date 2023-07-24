@@ -4,6 +4,7 @@ body {
     background-attachment: fixed;
     background-size: cover;
     background-color: #3e40b4;
+    font-family: 'Heebo', sans-serif;
 }
 
 .content {
@@ -17,6 +18,10 @@ body {
     margin-right: auto;
     margin-top: 10vh;
     padding: 10px;
+}
+
+.title{
+    font-style: bold;
 }
 
 .profile_pic{
@@ -36,6 +41,7 @@ body {
 }
 
 .outlink{
+    position: relative;
     display: block;
     padding-left: 160px;
     height: fit-content;
