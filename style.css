@@ -41,12 +41,13 @@ body {
 }
 
 .outlink{
+    margin: auto;
     position: relative;
     display: block;
     padding-left: 160px;
-    height: fit-content;
-    width: fit-content;
-    padding: 40px;
+    padding-top: 40;
+    padding-bottom: 40;
+    padding-right: 40;
     background-color: #3e40b4;
     color: #ee86d4;
     border-radius: 20px;
