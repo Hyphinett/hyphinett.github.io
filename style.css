@@ -59,4 +59,5 @@ body {
     border-color: rgb(90, 39, 110);
     border-width: 5px;
     text-decoration: none;
+    width: inherit;
 }
