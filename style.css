@@ -9,7 +9,7 @@ body {
 }
 
 .content {
-    width: 100%;
+    width: 60vw;
     background-color: rgb(127, 207, 245);
     border-radius: 20px;
     border-style: solid;
