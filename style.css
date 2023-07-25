@@ -36,6 +36,8 @@ body {
 
 .links{
     text-align: center;
+    padding-left: 20vw;
+    padding-right: 20vw;
 }
 
 .pfp_holder{
@@ -45,7 +47,7 @@ body {
 }
 
 .outlink{
-    margin: auto;
+    margin: 0px;
     display: inline-block;
     padding: 10px;
     vertical-align: middle;
