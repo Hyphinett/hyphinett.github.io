@@ -48,6 +48,8 @@ body {
     margin: auto;
     position: relative;
     display: inline-block;
+    vertical-align: middle;
+    text-align: end;
     padding-left: 160px;
     padding-top: 40;
     padding-bottom: 40;
@@ -55,7 +57,6 @@ body {
     background-color: #3e40b4;
     height: 160px;
     width: fit-content;
-    vertical-align: center;
     color: #ee86d4;
     border-radius: 20px;
     border-style: solid;
