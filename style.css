@@ -54,6 +54,24 @@ body {
     height: 20vw;
 }
 
+.bloglink{
+    margin: 0px;
+    display: inline-block;
+    padding: 10px;
+    vertical-align: middle;
+    text-align: end;
+    background-color: #3e40b4;
+    color: #ee86d4;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: rgb(90, 39, 110);
+    border-width: 5px;
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
 .outlink{
     margin: 0px;
     display: inline-block;
