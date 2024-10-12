@@ -1,51 +1,155 @@
 <!DOCTYPE html>
 <html>
 <head> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="Assets/Images/SiteIcon.png">
 </head>
 <body>
-    
+
 <div class="pfp_holder">
     <img src="Assets/Images/Marin1024Circle.png" class="profile_pic">
 </div>
-<div class="content">
-    <h1 class="title">Hi I'm Hyphinett!</h1>
 
-    <div class="Bio">
-        <h2 class="heading">welcome to hyphin.net!</h2> 
+<div class="flex_container">
+    <div class="flex_column">
+        <div class="dropdown">
+            <details open>
+                <summary class="dropdown_heading">Links</summary>
+                <div class="links">
+                    <a href="https://mastodon.gamedev.place/@BreoganHackett" class="outlink">Mastodon</a><br>
+                    <a href="https://www.instagram.com/hyphinett" class="outlink">Instagram</a><br>
+                    <a href="https://www.youtube.com/@hyphinett" class="outlink">Youtube</a><br>
+                    <a href="https://boaheck.itch.io/" class="outlink">My Games on Itch</a><br>
+                    <a href="https://downpour.games/~Hyphinett" class="outlink">Downpour Games</a><br>
+                    <a href="https://breoganhackett.bandcamp.com/album/spaceship-submarine" class="outlink">My Music on Bandcamp</a><br>
+                    <a href="https://www.tumblr.com/hyphinett" class="outlink">Tumblr</a><br>
+                    <a href="https://soundcloud.com/yanz-rilg" class="outlink">Soundcloud</a><br>
+                    <a href="https://github.com/Hyphinett" class="outlink">Github</a><br>
+                </div>
+            </details>
+        </div>
 
-        I'm a game developer, musician and artist.<br>
-        Notable game titles I've worked on are If Found, Dread X Collection 3(Bubbo: Adventure On Geralds Island), and The Haunted PS1 Demo Discs (2020/21).<br>
-        In addition to helping organise the Haunted PS1 Demo Discs in 2021 and 2020 I am also the founder of the Haunted PS1, having started the discord server in 2018.<br>
-        I love making electronic music, in 2023 I released Spaceship Submarine, a collection of dreamy DNB tracks salvaged from an accidentally formatted my hard drive, you can find the youtube video at the bottom of this page, or buy it on Bandcamp.<br>
-    
-        <h3>Contact: contact@hyphin.net</h3>
+        <div class="dropdown">
+            <details>
+                <summary class="dropdown_heading">Music</summary>
+                <div class="frame_holder">
+                    <iframe class="video_embed" src="https://www.youtube-nocookie.com/embed/3IU9WQxPGwg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="links">
+                    <a href="https://breoganhackett.bandcamp.com/album/spaceship-submarine" class="outlink" width="560">Bandcamp</a><br>
+                    <a href="https://soundcloud.com/yanz-rilg" class="outlink" width="560">Soundcloud</a><br>
+                </div>
+            </details>
+        </div>
+
+        <div class="dropdown">
+            <details>
+                <summary class="dropdown_heading">Art</summary>
+                
+                <div class="gallery">
+                    <div class="text_content">
+                        <h3>Vibrant Shoals</h3>
+                        <p>
+                            Digital Painting, Krita (2023)<br>
+                            An experiment in texture
+                        </p>
+                    </div>
+                    <img class="gallery_img" src="Assets/Images/VibrantShoals.png" alt="the site's background image, a shoal of orange fish swim underwater.">
+                    <hr>
+                    <div class="text_content">
+                        <h3>Is it a Problem With My Connection</h3>
+                        <p>
+                            3D Render, Blender and Bryce 7 (2024)<br>
+                            Or just basic entropy?
+                        </p>
+                    </div>
+                    <img class="gallery_img" src="Assets/Images/MissingFiles.png" alt="the site's background image, a shoal of orange fish swim underwater.">
+                </div>
+            </details>
+        </div>
     </div>
 
-    <!-- <a href="pages/blog-main.html" class="bloglink">Blog Page</a> -->
+    
+    <div class="flex_column">
+        <div class="dropdown">
+            <details>
+                <summary class="dropdown_heading">Bio</summary>
+                <div class="text_content">
+                    <h1 class="title">Hi I'm Hyphinett!</h1>
+                    <h2 class="heading">welcome to hyphin.net!</h2> 
+                    I'm a game developer, musician and artist.<br>
+                    Notable game titles I've worked on include If Found, Bubbo: Adventure On Geralds Island (Dread X Collection 3), and The Haunted PS1 Demo Discs (2020/21).<br>
+                    In addition to helping organise the Haunted PS1 Demo Discs in 2021 and 2020 I am also the founder of the Haunted PS1, having started the discord server in 2018.<br>
+                    I love making electronic music, in 2023 I released Spaceship Submarine, a collection of dreamy DNB tracks salvaged from an accidentally formatted hard drive, you can find it in the music section of the page.<br>
+                    
+                    <br>
+                    <h3>Contact: contact@hyphin.net</h3>
 
-    <h2 class="heading">Links:</h2>
-    <div class="links">
-        <a href="https://www.instagram.com/hyphinett" class="outlink">Instagram</a><br>
-        <a href="https://www.youtube.com/@hyphinett" class="outlink">Youtube</a><br>
-        <a href="https://boaheck.itch.io/" class="outlink">My Games on Itch</a><br>
-        <a href="https://breoganhackett.bandcamp.com/album/spaceship-submarine" class="outlink">My Music on Bandcamp</a><br>
-        <a href="https://mastodon.gamedev.place/@BreoganHackett" class="outlink">Mastodon</a><br>
-        <a href="https://www.tumblr.com/hyphinett" class="outlink">Tumblr</a><br>
-        <a href="https://soundcloud.com/yanz-rilg" class="outlink">Soundcloud</a><br>
-        <a href="https://github.com/Hyphinett" class="outlink">Github</a><br>
+                </div>
+            </details>
+        </div>
+        <div class="dropdown">
+            <details>
+                <summary class="dropdown_heading">Games</summary>
+                <div class="text_content">
+                    While you're here, why not check out some of my games?! <br>
+                    I'd really appreciate it if you play them :3 <br>
+
+                </div>
+                <div class="links">
+                    <iframe class="game_link_embed" src="https://store.steampowered.com/widget/1437500/?t=Play%20my%20game%20Bubbo%3AAdventure%20On%20Geralds%20Island%20as%20part%20of%20this%20collection!%0A%0AExperience%2012%20all-new%20spoopy%20games%20made%20exclusively%20for%20this%20unique%20horror%20anthology.%20Explore%20a%20mysterious%20castle%20that%20changes%20as%20you%20play.%20Keep%20your%20wits%20about%20you%20as%20the%20line%20between%20cute%20and%20creepy%20begins%20to%20blur.%20Uncover%20the%20next%20chapter%20in%20the%20ongoing%20Dread%20X%20Collection%20storyline." frameborder="0" width="552" height="190"></iframe>
+                    <iframe class="game_link_embed" src="https://store.steampowered.com/widget/2061140/?t=Play%20my%20game%20Boxcorp%20Employee%20Training%2C%20a%20tetris%20for%20our%20modern%20capitalist%20hellscape%2C%20in%20this%20collection.%0AA%20collection%20of%20short%20games%20about%20employment.%20Move%20exploding%20boxes%2C%20survive%20intense%20job%20interviews%20in%20other%20dimensions%2C%20literally%20K.O.%20your%20co-workers%2C%20and%20more!" frameborder="0" width="552" height="190"></iframe>
+                    <iframe class="game_link_embed" frameborder="0" src="https://itch.io/embed/1435090?bg_color=ffe087&amp;fg_color=222222&amp;link_color=fa5c5c&amp;border_color=ff4473" ><a href="https://pizzapranks.itch.io/indiepocalypse-27">Indiepocalypse #27 by PIZZAPRANKS</a></iframe>
+                    <iframe class="game_link_embed" frameborder="0" src="https://itch.io/embed/611132?bg_color=203038&amp;fg_color=ffffff&amp;link_color=50a1ca&amp;border_color=4a5a62" ><a href="https://hyphinett.itch.io/bleakshore">Bleakshore by Hyphinett</a></iframe>
+                    <iframe class="game_link_embed" frameborder="0" src="https://itch.io/embed/1870959?bg_color=52d545&amp;fg_color=000000&amp;link_color=fa5c5c&amp;border_color=97625c" ><a href="https://hyphinett.itch.io/click-click-farm">Click Click Farm by Hyphinett</a></iframe>
+                    <iframe class="game_link_embed" frameborder="0" src="https://itch.io/embed/324504?bg_color=000000&amp;fg_color=cef8ff&amp;link_color=f93e2b&amp;border_color=333333" ><a href="https://hyphinett.itch.io/perennial">Perennial v0.9 by Hyphinett</a></iframe>
+                    <iframe class="game_link_embed" frameborder="0" src="https://itch.io/embed/265126?bg_color=45283c&amp;fg_color=ffffff&amp;link_color=b93284&amp;border_color=6d5064" ><a href="https://hyphinett.itch.io/vitreous">Vitreous by Hyphinett</a></iframe>
+                    <iframe class="game_link_embed" frameborder="0" src="https://itch.io/embed/562899?bg_color=000000&amp;fg_color=e24770&amp;link_color=ee92f2&amp;border_color=333333" ><a href="https://hauntedps1.itch.io/demodisc2020">Haunted PS1 Demo Disc 2020 by The Haunted PS1</a></iframe>
+                    <iframe class="game_link_embed" frameborder="0" src="https://itch.io/embed/963368?bg_color=000000&amp;fg_color=ffffff&amp;link_color=ff5379&amp;border_color=333333" ><a href="https://hauntedps1.itch.io/demodisc2021">Haunted PS1 Demo Disc 2021 by The Haunted PS1, Hyphinett, Bryce Bucher, iwilliams, Ryan Trawick, Valerie Dusk, Negative Entities, DEVHOUR GAMES, Renna Valentine, Cyreides, Minnie, tm, Korpus, Rubeki, sodaraptor, Headware Games, tammukka</a></iframe>
+                </div>
+            </details>
+        </div>
+        <div class="dropdown">
+            <details>
+                <summary class="dropdown_heading">Buttons Collection</summary>
+                <div class="text_content">
+                    <p>
+                        Here's a bunch of buttons<br>
+                        Click on them to visit other cool sites!
+                    </p>
+                </div>
+                <div class="buttons_holder">
+                    <a class="site_button" href="https://adamledoux.net"><img src="https://adamledoux.net/images/button_bitsy.png" width="88" height="31" alt="adam le doux dot net" /></a>
+                    <a class="site_button" href="https://slimehunter.neocities.org" alt="slimehunter"><img src="https://slimehunter.neocities.org/buttons/slimebutton3.png"></a>
+                    <a class="site_button" href="https://enikofox.com" title="Eniko does bad things to code"><img src="https://enikofox.com/enikodoesbadthingstocode.png" width="88" height="31" alt="Eniko does bad things to code"></a>
+                    <a class="site_button" href="http://www.punchingrobots.com"><img width="88" height="31" class="wp-image-15499" style="width: 88px;" src="https://punchingrobots.com/wp-content/uploads/2024/04/Untitled-09-16-2024-05-13-30.png" alt=""></a>
+                    <a class="site_button" href="https://indietsushin.net"><img src="https://indietsushin.net/button.gif" alt="インディー通信 Indie Tsushin" width="88" height="31"></a>
+                    <a class="site_button" href="https://renkotsuban.com"><img src="http://renkotsuban.com/button.gif" width="88" height="31" alt="Midnight Reading: Renkon's Personal Site"></a>
+                    <a class="site_button" href="https://pancelor.com" target="_blank"><img src="https://pancelor.com/button.gif" width="88" height="31" title="pancelor"></a>
+                    <a class="site_button" href="http://emreed.net"><img src="https://hotelpaintings.neocities.org/images/button1.png"></a>
+                    <a class="site_button" href="https://ghoulnoise.com"><img src="https://i.postimg.cc/Gh1kB857/ghoulnoise-button.gif"style="width:88px;height:31px;"></a>
+                    <a class="site_button" href="https://haraiva.neocities.org/"><img loading="lazy" decoding="async" style="image-rendering: pixelated;" src="https://virtualmoose.org/wp-content/uploads/2024/09/haraiva-button.png" alt="" width="88" height="31"></a>
+                    <a class="site_button" href="https://www.enkisoftware.com" title="enkisoftware makes Avoyd"><img src="https://www.enkisoftware.com/images/Button_enkisoftwareavoyd.png" width="88" height="31" alt="enkisoftware makes Avoyd"></a>
+                    <a class="site_button" href="https://melon.zone/"><img src="https://melon.zone/assets/img/88x31.png"/></a>
+                    <a class="site_button" href="https://oakreef.ie"><img src="https://oakreef.ie/88x31/oakreef.gif" alt="oakreef.ie" title="Oak Reef Zone"/> </a>
+                    <a class="site_button" href="https://wowperfect.net/" title="wowperfect.net"><img src="https://wowperfect.net/img/88x31.png" alt="wowperfect.net" style="image-rendering:pixelated;"/></a>
+                    <a class="site_button" href="https://mokkograd.net"><img src="https://mokkograd.net/images/81x31(iv).gif" width="88" height="31" alt="Mokkograd.net, home of the GB Rober"></a>
+                    <a class="site_button" href="https://bumblebee.city" style="cursor: url('http://bumblebee.city/beeCursorClick.png'), default;"><img src="https://bumblebee.city/bumblebeecitybutton.gif"></a>
+                    <a class="site_button" href="https://virtualmoose.org" title="virtualmoose.org"><img decoding="async" width="88" height="31" src="https://virtualmoose.org/wp-content/uploads/2024/09/88x31-export-export-1.png" alt="" ></a>
+                    <a class="site_button" href="https://polarbearsummer.online"><img src="https://polarbearsummer.online/images/Polar Bear Summer button true.png" width="88" height="31" alt="Polar Bear Summer"></a>
+                </div>
+            </details>
+        </div>
     </div>
 
-
-    <h2 class="heading">Music:</h2>
-    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/3IU9WQxPGwg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     
 
+    
 </div>
-
 </body>
 </html>
