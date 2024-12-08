@@ -158,9 +158,12 @@ details[open]{
 }
 
 .profile_pic{
-    width: 15vw;
-    height: 15vw;
     margin: auto;
+    vertical-align: middle;
+    border-style: solid;
+    border-color:#3e40b4;
+    border-radius: 4px;
+    border-width: 8px;
 }
 
 .heading{
@@ -175,9 +178,10 @@ details[open]{
 }
 
 .pfp_holder{
+    margin-top: 38px;
     text-align: center;
     width: auto;
-    height: 20vw;
+    height: 200px;
 }
 
 .frame_holder{
@@ -186,6 +190,10 @@ details[open]{
     overflow: hidden;
     width: 100%;
     padding-top: 56.25%;
+}
+
+.button_code{
+    width: 100%;
 }
 
 .bloglink{
